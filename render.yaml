@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: puntualia-api
+    env: node
+    rootDir: apps/api
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: CORS_ORIGIN
+        value: "*"
