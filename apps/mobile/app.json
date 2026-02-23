@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "PuntualIA Pro",
+    "slug": "puntualia-pro",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "plugins": [
+      "expo-notifications"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE-ME"
+      }
+    }
+  }
+}
